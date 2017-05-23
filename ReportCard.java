@@ -57,12 +57,12 @@ public class ReportCard {
 
         /** Get the C Programming mark */
         public int getCProgrammingMark() {
-        return mCProgramming;
+            return mCProgramming;
         }
 
         /** Get the Android Programming mark */
         public int getAndroidProgrammingMark() {
-        return mAndroidProgrammingMark;
+            return mAndroidProgrammingMark;
         }
 
         /** Get the General Physics mark */
@@ -84,39 +84,33 @@ public class ReportCard {
         /**  ****************** */
 
         /** Set the Maths mark */
-        public int setMathsMark(int mathsMark) {
+        public void setMathsMark(int mathsMark) {
             mMathsMark = mathsMark;
-            return mMathsMark;
         }
 
         /** Set the C Programming mark */
-        public int setCProgrammingMark(int cProgrammingMark) {
+        public void setCProgrammingMark(int cProgrammingMark) {
             mCProgramming = cProgrammingMark;
-            return mCProgramming;
         }
 
         /** Set the Android Programming mark */
-        public int setAndroidProgrammingMark(int androidProgrammingMark) {
+        public void setAndroidProgrammingMark(int androidProgrammingMark) {
             mAndroidProgrammingMark = androidProgrammingMark;
-            return mAndroidProgrammingMark;
         }
 
         /** Set the General Physics mark */
-        public int setGeneralPhysicsMark(int generalPhysicsMark) {
+        public void setGeneralPhysicsMark(int generalPhysicsMark) {
             mGeneralPhysicsMark = generalPhysicsMark;
-            return mGeneralPhysicsMark;
         }
 
         /** Set the Quantum Physiscs mark */
-        public int setQuantumPhysiscsMark(int quantumPhysiscsMark) {
+        public void setQuantumPhysiscsMark(int quantumPhysiscsMark) {
             mQuantumPhysicsMark = quantumPhysiscsMark;
-            return mQuantumPhysicsMark;
         }
 
         /** Set the Chemical Physics mark */
-        public int setChemicalPhysiscsMark(int chemicalPhysiscsMark) {
+        public void setChemicalPhysiscsMark(int chemicalPhysiscsMark) {
             mChemicalPhysicsMark = chemicalPhysiscsMark;
-            return mChemicalPhysicsMark;
         }
 
     @Override
